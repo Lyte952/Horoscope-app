@@ -5,6 +5,7 @@ import datetime
 username = input("Enter your name: ")
 day = datetime.datetime.now()
 
+# main function, runs first
 def main():
     horoscope_message_ = horoscope_message()
     print(day)
