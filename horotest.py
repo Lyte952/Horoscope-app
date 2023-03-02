@@ -5,6 +5,7 @@ import datetime
 username = input("Enter your name: ")
 day = datetime.datetime.now()
 
+# main function, runs first
 def main():
     horoscope_message_ = horoscope_message()
     print(day)
@@ -25,4 +26,4 @@ def horoscope_message():
 
 
 if __name__=="__main__":
-    main()
+    main() 
